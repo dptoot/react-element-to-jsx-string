@@ -2,7 +2,7 @@
 
 import collapse from 'collapse-white-space';
 import { isValidElement } from 'react';
-import stringify from 'stringify-object';
+import stringify from '@dptoot/stringify-object';
 import sortobject from 'sortobject';
 import parseReactElement from './../parser/parseReactElement';
 import formatTreeNode from './formatTreeNode';
