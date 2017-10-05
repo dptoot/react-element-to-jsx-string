@@ -10,7 +10,7 @@
     "flow": "flow",
     "precommit": "lint-staged",
     "prepublish": "npm run build",
-    "prebuild": "mkdir dist && rm -rf ./dist/*",
+    "prebuild": "rm -rf ./dist/* && mkdir dist",
     "prettier:fix": "prettier --write --single-quote --trailing-comma es5 \"{src/**/*.js,package.json}\"",
     "test": "jest && npm run lint && yarn run flow",
     "test:watch": "jest --watch",
